@@ -1,0 +1,17 @@
+{
+    "name": "bun-fastify-crud",
+    "version": "1.0.0",
+    "description": "A simple CRUD API using Bun and Fastify",
+    "main": "index.ts",
+    "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun --hot run index.ts"
+    },
+
+    "dependencies": {
+        "fastify": "^4.28.1"
+    },
+    "devDependencies": {
+        "@types/node": "^22.5.4"
+    }
+}
